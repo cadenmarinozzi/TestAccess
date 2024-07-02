@@ -11,7 +11,7 @@ export default () => {
             <p className="flex flex-col gap-2">
               <span className="font-semibold text-nowrap">The problem:</span>
               <span className="text-wrap">
-                Collegeboard tests can be expensive, causing some students of
+                Standardized tests can be expensive, causing some students of
                 lower financial classes to miss the opportunity to take the SAT
                 or ACT.
               </span>
@@ -33,7 +33,7 @@ export default () => {
             <p className="flex flex-col gap-2">
               <span className="font-semibold text-nowrap">The problem:</span>
               <span className="text-wrap">
-                Collegeboard tests can be extremely difficult to fit into a
+                Standardized tests can be extremely difficult to fit into a
                 student's busy schedule, especially if they have to travel long
                 distances to take the test.
               </span>
@@ -51,12 +51,12 @@ export default () => {
           </div>
         </li>
       </ol>
-      <button className="btn btn-primary group">
-        <Link to="/registration">
+      <Link to="/registration">
+        <button className="btn btn-primary group">
           <span>Register a testing site</span>
-        </Link>
-        <ButtonArrow />
-      </button>
+          <ButtonArrow />
+        </button>
+      </Link>
     </div>
   );
 };
