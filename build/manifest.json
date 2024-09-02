@@ -1,0 +1,14 @@
+{
+    "short_name": "TestAccess",
+    "name": "TestAccess",
+    "start_url": ".",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/images/favicon.ico",
+            "sizes": "64x64",
+            "type": "image/ico"
+        }
+    ]
+}
